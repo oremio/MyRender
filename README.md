@@ -1,5 +1,19 @@
 # renderhelp.h
 
+## 测试结果
+
+三角形测试：
+
+![](https://files.catbox.moe/f7rrzk.bmp)
+
+纹理测试：
+
+![](https://files.catbox.moe/rmn24x.bmp)
+
+正方体测试：
+
+![](https://files.catbox.moe/ovifcw.bmp)
+
 ## 数学库
 
 **数学库：矢量定义**
