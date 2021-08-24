@@ -1,3 +1,6 @@
+#include "compile.h"
+#ifdef SAMPLE_01
+
 #include "renderhelp.h"
 
 int main(void) {
@@ -28,12 +31,14 @@ int main(void) {
 
     // ‰÷»æ≤¢±£¥Ê
     rh.drawPrimitive();
-    rh.saveFile("output.bmp");
+    rh.saveFile("output1.bmp");
 
     // ”√ª≠∞Âœ‘ æÕº∆¨
 #if defined(_WIN32) || defined(WIN32)
-    system("mspaint.exe output.bmp");
+    system("mspaint.exe output1.bmp");
 #endif
 
     return 0;
 }
+
+#endif

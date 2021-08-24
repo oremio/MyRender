@@ -18,9 +18,18 @@
     <ClInclude Include="renderhelp.h">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="compile.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="sample_01_triangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_02_texture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_03_box.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

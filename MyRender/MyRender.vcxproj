@@ -19,10 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="compile.h" />
     <ClInclude Include="renderhelp.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="sample_01_triangle.cpp" />
+    <ClCompile Include="sample_02_texture.cpp" />
+    <ClCompile Include="sample_03_box.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
